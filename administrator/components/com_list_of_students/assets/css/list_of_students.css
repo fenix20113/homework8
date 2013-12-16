@@ -1,0 +1,91 @@
+.icon-48-ofstudentss {
+      background-image: url(../images/l_ofstudentss.png);
+      padding-left:60px!important;
+}
+
+.icon-48-ofstudents {
+      background-image: url(../images/l_ofstudentss.png);
+      padding-left:60px!important;
+}
+
+/*##########   LIST_OF_STUDENTS  ##############*/
+#main {
+    width: 600px;
+    text-align: left;
+}
+
+
+#main ul {
+
+    list-style: none !important;
+}
+
+}
+div#names {
+
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+div#names ul{
+    font-size: 25px;
+}
+
+
+#main #names li.a {
+    margin-left: 8%;
+
+}
+#main #names li.c {
+    margin-right:  8%;
+
+}
+#main #names li {
+    margin-right: 5px;
+    float: left;
+}
+#main img {
+    position: relative;
+    float: right;
+    margin-right: 12em;
+    margin-top: 2em;
+    max-width: 160px;
+    height: 200px;
+}
+
+#main #info {
+    top: 0;
+    width: 100%;
+}
+
+#main .fields_list li {
+float: left;
+width: 300px;
+position: relative;
+top:5em ;
+
+}
+
+
+
+
+/*##########  FORM_LIST_OF STUDENTS #############*/
+
+form#form-ofstudents {
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+
+}
+form#form-ofstudents li * {
+float: left;
+
+}
+form#form-ofstudents ul li {
+width: 500px;
+    height: 40px;
+    padding: 50px 0 ;
+    margin: 50px 0;
+    border: solid;
+}

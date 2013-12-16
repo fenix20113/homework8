@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+    <name>mod_articles_title</name>
+    <author>Yuri_Paliy</author>
+    <version>1.0.0</version>
+    <description>Articlestitle</description>
+    <files>
+        <filename>mod_articles_title.xml</filename>
+        <filename module="mod_articles_title">mod_articles_title.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+    <folder>tmpl</folder>
+    </files>
+    <config>
+        <fields name="params">
+        <fieldset name="title">
+            <field name="showall" type="checkbox" label="Show all" description="Show all" value="1" default="0" />
+       <field name="mycategory" type="category" extension="com_content" label="Select a category" description="" />
+            <field name="myvalue" type="text" default="5" label="Enter limit" description="limit" filter="integer" />
+        </fieldset>
+        </fields>
+    </config>
+</extension>

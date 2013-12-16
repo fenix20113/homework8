@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+
+	<creationDate>2012</creationDate>
+	<copyright>Copyright (C) 2012 Bestjoomlamodules</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@bestjoomlamodules.com</authorEmail>
+	<authorUrl>www.bestjoomlamodules.com</authorUrl>
+	<version>1.1.0</version>
+
+	<files>
+	<filename module="mod_banner_header">mod_banner_header.php</filename>
+	 <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		 <filename>tmpl/mod_banner_header.swf</filename>
+		 <filename>tmpl/images/img0.jpg</filename>
+		 <filename>tmpl/images/img1.jpg</filename>
+		 <filename>tmpl/images/img2.jpg</filename>
+		 
+	</files>
+	<config>
+	<fields name="params">
+
+<fieldset name="basic">
+
+
+
+		
+				
+		<field name="folder" type="text" default="modules/mod_banner_header/tmpl/images/" label="Images Folder(sample: images/stories/)" description="With the / at end." />
+		<field name="music" type="text" default="" label="Url mp3 file" description="Url mp3 file sample: http://www.yourweb.com/music/music1.mp3" />	
+		<field name="width" type="text" default="100%" label="Module width(samples: 100% or 400px)" description="" />
+		
+		<field name="height" type="text" default="300px" label="Module height(sample: 200px)" description="" />		
+		
+		<field name="timeback" type="text" default="10" label="Images Transition time in seconds" description="Transitions seconds" />	
+		<field name="controls" type="list" default="1" label="Show Controls?" description="Next, prev images buttons">
+			<option value="1">yes</option>
+			<option value="0">non</option>
+		</field>
+						<field name="type" type="list" default="1" label="Images effect" description="Images teffect ype">
+			<option value="1">random</option>
+			<option value="0">lineal</option>
+		</field>	
+		
+		<field name="columns" type="text" default="6" label="Effect Columns > 1" description="Effect Columns. Number > 0. Default 8." />	
+				<field name="rows" type="text" default="4" label="Effect Rows > 1" description="Effect Rows. Number > 0. Default 3." />	
+		
+				<field name="speed" type="list" default="32" label="Speed effect" description="" >
+			<option value="2">Very Fast</option>
+			<option value="6">Fast</option>
+			<option value="16">Normal Fast</option>
+			<option value="32">Normal</option>
+			<option value="48">Normal slow</option>
+			<option value="64">Slow</option>
+			<option value="128">Very Slow</option>
+			
+			
+			
+			</field>	
+		<field name="speed2" type="list" default="3" label="Transition Speed effect" description="" >
+		
+			<option value="1">Very Fast</option>
+			<option value="2">Fast</option>
+		
+			<option value="3">Normal</option>
+		
+			<option value="6">Slow</option>
+			<option value="10">Very Slow</option>
+			</field>	
+		
+		<field name="round" type="text" default="0" label="Images Round effect > 0" description="Images Round. Number > 0. Default 12." />
+		<field name="border1" type="text" default="0" label="Images Border effect > 0" description="Images border. Number > 0. Default 4." />
+		<field name="color1" type="text" default="ffffff" label="Color Design(text and controls)" description="color format white: ffffff" />
+		<field name="color3" type="text" default="000000" label="Color Shadow Design(text and controls)" description="color format white: ffffff" />
+		
+				<field name="background" type="text" default="" label="Color background module (sample white: ffffff)" description="background color format: ffffff" />
+				
+				<field name="round2" type="text" default="16" label="Round Module value " description="number > 0" />
+		<field name="border" type="text" default="0" label="Border module" description="border" />
+		<field name="bordercolor" type="text" default="000000" label="Border module color" description="border color" />	
+		
+		
+		<field name="escala" type="list" default="1" label="Images ajust?" description="Images ajust size to module">
+			<option value="1">Off</option>
+			<option value="0">On</option>
+		</field>	
+		
+
+		
+		
+
+
+		
+		
+
+		<field name="target" type="text" default="_self" label="Link Tarjet(_blank, _this, ...)" description="" />	
+			<field name="titles" type="textarea" cols="40" rows="7" default="BestJoomlaModules.com" label="Images Titles separated by backspace" description="Images Titles separated by backspace" />
+			
+		<field name="text7" type="list" default="0" label="Text Font " description="" >	
+		
+			<option value="0">Arial</option>
+			<option value="1">Verdana</option>
+			<option value="2">Times</option>
+			<option value="3">Trebuchet</option>
+		</field>		
+		
+			<field name="text1" type="text" default="24" label="Text Size" description="" />
+		
+		
+		
+		<field name="text2" type="list" default="color" label="Text Effect" description="">
+			<option value="normal">color</option>
+			<option value="overlay">overlay</option>
+				<option value="invert">invert</option>
+				
+			<option value="add">add</option>
+			
+			<option value="darken">darken</option>
+			<option value="difference">difference</option>
+			<option value="hardlight">hardlight</option>
+			<option value="layer">layer</option>
+			<option value="lighten">lighten</option>
+			<option value="multiply">multiply</option>
+			<option value="screen">screen</option>
+			<option value="shader">shader</option>
+			<option value="subtract">subtract</option>
+			
+					
+		</field>	
+		
+		
+				<field name="text3" type="list" default="left" label="Images Post Effect?" description="">
+				
+				
+				
+				
+			<option value="center">nothing</option>
+			<option value="left">zoom</option>
+				<option value="right">blur</option>
+					
+		</field>	
+		
+			<field name="text4" type="list" default="0" label="Pause?" description="">
+			<option value="0">off</option>
+			<option value="1">on</option>
+				
+					
+		</field>
+		
+		<field name="text5" type="text" default="0" label="Vertical Text correction" description="Number positive or negative" />	
+		<field name="text6" type="text" default="0" label="Horizontal Text correction" description="Number positive or negative" />	
+
+	
+      </fieldset>
+    </fields>
+  </config>
+</install>

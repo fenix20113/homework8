@@ -1,0 +1,39 @@
+﻿#conteiner{width:524px;margin-left:0px;margin-top:0px;overflow:visible;padding: 0 10px; float: right;margin-right: 200px}
+#conteiner img {width: 524px;height: 200px;position: relative;}
+#conteiner h2 {
+    font-family: "Goudy Old Style" ;
+    text-shadow: 1px 1px 2px black ;
+    text-align: center;
+}
+#conteiner h2.title {
+    width: 100%;
+    top:0;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0,0,0,0.7);
+}#conteiner h2.description {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+    background: rgba(0,0,0,0.7);
+}
+#conteiner .title{
+color:white;
+}
+#conteiner .description {
+    color: #00FF00;
+}
+.content{width:524px;height:200px;float: left;position: relative;background-color:#FFF;background: url(keyboard.png) no-repeat;}
+.inslider a{text-decoration:none;}
+.contentholder{height:200px;width: 524px;overflow: hidden;position: relative;}
+.contentslider{position: absolute;top: 0; left: 0;}
+.imgslider img{float: left;}
+.contentnav{background: url(fon.gif) no-repeat;	position: relative; height:38px;width:174px;font-family:Verdana;}
+.contentnav a:hover{color:green;font-weight:bold;}
+.contentnav a.active{font-weight:bold;color:#0000ff;font-size:11px;}
+.poz1{margin-top:11px;margin-left:15px;position:absolute;width:10px;color:#000;font-size:10px;}
+.poz2{margin-top:11px;margin-left:49px;position:absolute;width:10px;color:#000;font-size:10px;}
+.poz3{margin-top:11px;margin-left:83px;position:absolute;width:10px;color:#000;font-size:10px;}
+.poz4{margin-top:11px;margin-left:117px;position:absolute;width:10px;color:#000;font-size:10px;}
+.poz5{margin-top:11px;margin-left:151px;position:absolute;width:10px;color:#000;font-size:10px;}

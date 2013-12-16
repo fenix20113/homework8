@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>myslideshow</name>
+    <author>Yuri</author>
+    <description>slideshow</description>
+    <files>
+  	<folder>js</folder>
+        <folder>style</folder>
+	<filename>index.html</filename>
+        <filename module="mod_myslideshow">mod_myslideshow.php</filename>
+        <filename>mod_myslideshow.xml</filename>
+        
+   
+    </files>
+            <config>
+                <fields name="params">
+
+         <fieldset name="IMAGE1">
+             <field name="label1" type="text" label="TITLE" description="" size="10" />
+             <field name="description1" type="text" label="DESCRIPTION" description="" size="10" />
+             <field name="image1" label="MYSLIDE_IMAGE" type="media" directory="myslideshow" />
+                    </fieldset>
+         <fieldset name="IMAGE2">
+             <field name="label2" type="text" label="TITLE" description="" size="10" />
+             <field name="description2" type="text" label="DESCRIPTION" description="" size="10" />
+             <field name="image2" label="MYSLIDE_IMAGE" type="media" directory="myslideshow" />
+                    </fieldset>
+         <fieldset name="IMAGE3">
+             <field name="label3" type="text" label="TITLE" description="" size="10" />
+             <field name="descripton3" type="text" label="DESCRIPTION" description="" size="10" />
+             <field name="image3" label="MYSLIDE_IMAGE" type="media" directory="myslideshow" />
+                    </fieldset>
+
+         <fieldset name="IMAGE4">
+             <field name="label4" type="text" label="TITLE" description="" size="10" />
+             <field name="description4" type="text" label="DESCRIPTION" description="" size="10" />
+             <field name="image4" label="MYSLIDE_IMAGE" type="media" directory="myslideshow" />
+                    </fieldset>
+
+         <fieldset name="IMAGE5">
+             <field name="label5" type="text" label="TITLE" description="" size="10" />
+             <field name="description5" type="text" label="DESCRIPTION" description="" size="10" />
+             <field name="image5" label="MYSLIDE_IMAGE" type="media" directory="myslideshow" />
+                     </fieldset>
+                </fields>
+            </config>
+    <languages folder="languages">
+
+        <language tag="en-GB">en-GB/en-GB.mod_myslideshow.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.mod_myslideshow.ini</language>
+        <language tag="uk-UA">uk-UA/uk-UA.mod_myslideshow.ini</language>
+
+        </languages>
+
+        </extension>

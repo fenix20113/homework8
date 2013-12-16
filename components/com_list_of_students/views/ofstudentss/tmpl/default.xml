@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_LIST_OF_STUDENTS_TITLE_LIST_VIEW_OFSTUDENTSS" option="View">
+        <message>
+                        <![CDATA[COM_LIST_OF_STUDENTS_TITLE_LIST_VIEW_OFSTUDENTSS_DESC]]>
+        </message>
+	</layout>
+</metadata>
